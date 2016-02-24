@@ -1,0 +1,46 @@
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignright * {
+	float: left;
+}
+
+.btn-upload {
+	margin-right: 15px;
+}
+
+.navbar-static-top {
+	margin-bottom: 19px;
+}
+
+#selector {
+	background: #ecf0f1;
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+#selector ul {
+	margin: 0;
+}
+
+#selector ul li:not(:last-child) {
+	border-bottom: 1px #bdc3c7 solid;
+}
+
+#selector ul li:not(:first-child) {
+	padding-top: 5px;
+}
+
+#selector ul li:not(:last-child) {
+	padding-bottom: 5px;
+}
+
+#selector ul li p {
+	margin: 0;
+}
